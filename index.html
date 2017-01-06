@@ -114,7 +114,7 @@
 <body>
 
 <header>
-    <li><a href="http://nupamore.github.io/ target="_blank"">NUPA</a></li>
+    <li><a href="http://nupamore.github.io" target="_blank">NUPA</a></li>
     <li><a href="manual.png" target="_blank">MANUAL</a></li>
     <li><a href="http://imas.inven.co.kr/dataninfo/card/sl_list.php" target="_blank">데레스테 카드정보</a></li>
     <li><a href="http://nupamore.github.io/fts" target="_blank">태양을찾을태양</a></li>
@@ -124,7 +124,7 @@
 
 <div class="container">
   <div id="option">
-    YOUTUBE URL : <input id="url" type="text" size=10 value="jd5WqsW9wK0"> 　
+    YOUTUBE URL : <input id="url" type="text" size=10 value="wmwZigxcHfg"> 　
     START TIME : <input id="startTime" type="number" value="6">
   </div>
   <div id="youtube-container">
@@ -169,11 +169,11 @@
         </select></td>
       </tr>
       <tr id="skill-time">
-        <td><input type="number" value="11" min=0><input type="number" value="9" min=0></td>
-        <td><input type="number" value="9" min=0><input type="number" value="7" min=0></td>
+        <td><input type="number" value="9" min=0><input type="number" value="4" min=0></td>
+        <td><input type="number" value="15" min=0><input type="number" value="5" min=0></td>
+        <td><input type="number" value="9" min=0><input type="number" value="5" min=0></td>
         <td><input type="number" value="9" min=0><input type="number" value="6" min=0></td>
-        <td><input type="number" value="11" min=0><input type="number" value="7" min=0></td>
-        <td><input type="number" value="9" min=0><input type="number" value="6" min=0></td>
+        <td><input type="number" value="9" min=0><input type="number" value="5" min=0></td>
       </tr>
     </table>
   </div>
@@ -245,7 +245,7 @@
   var youtube;
   function onYouTubeIframeAPIReady() {
     youtube = new YT.Player('youtube', {
-      videoId: 'jd5WqsW9wK0',
+      videoId: 'wmwZigxcHfg',
       events: {
         'onReady': function(){
           console.log('ready');
@@ -279,11 +279,11 @@
 
 
   var skill = [
-    [11,9],
-    [9,7],
+    [9,4],
+    [15,5],
+    [9,5],
     [9,6],
-    [11,7],
-    [9,6]
+    [9,5]
   ];
   $('#skill-time > td > input').change(function(){
     $('#skill-time > td > input').each(function(index){
